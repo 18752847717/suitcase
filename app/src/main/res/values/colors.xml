@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#70a1ff</color>//底部导航栏的颜色
+    <color name="colorPrimaryDark">#ABCDEF</color>//APP栏、信息栏的颜色
+    <color name="colorAccent">#1e90ff</color>//开关的颜色
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Suitcase</string>
+    <string name="title_gongjuxiang">工具箱</string>
+    <string name="title_xingchengzhushou">行程助手</string>
+    <string name="title_youji">游记</string>
+    <string name="title_wode">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

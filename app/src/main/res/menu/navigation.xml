@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_gongjuxiang"
+        android:icon="@drawable/gongjuxiang"
+        android:title="@string/title_gongjuxiang" />
+
+    <item
+        android:id="@+id/navigation_xingchengzhushou"
+        android:icon="@drawable/xingchengzhushou"
+        android:title="@string/title_xingchengzhushou" />
+
+    <item
+        android:id="@+id/navigation_youji"
+        android:icon="@drawable/youji"
+        android:title="@string/title_youji" />
+
+    <item
+        android:id="@+id/navigation_wode"
+        android:icon="@drawable/wode"
+        android:title="@string/title_wode" />
+
+</menu>
