@@ -14,8 +14,22 @@
         android:orientation="vertical">
     </LinearLayout>
 
+
+    <!--tab超过3个时，不管点击哪个tab，只有当前tab的text会显示，其他tab只显示图标，这显然是有问题的，
+    这是因为BottomNavigationView 默认是三个tab的，如果超过三个，就会出现当前问题。
+    据说在API28之前是需要使用反射机制解决的，28及之后 加一个配置即可 app:labelVisibilityMode="labeled"
+    app:labelVisibilityMode有四个值分别是：
+    auto   当item小于等于3是，显示文字，item大于3个默认不显示，选中显示文字
+    labeled  始终显示文字
+    selected  选中时显示
+    unlabeled 选中时显示
+     移除水波纹动画   app:itemBackground="@null"
+     移除切换时偏移动画   app:itemHorizontalTranslationEnabled="false"
+     如下-->
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
+        app:labelVisibilityMode="labeled"
+        app:itemBackground="@null"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="0dp"
